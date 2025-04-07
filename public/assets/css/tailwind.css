@@ -3,6 +3,43 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/iranyekan/woff2/IRANYekanXFaNum-Light.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/iranyekan/woff2/IRANYekanXFaNum-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/iranyekan/woff2/IRANYekanXFaNum-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/iranyekan/woff2/IRANYekanXFaNum-DemiBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/iranyekan/woff2/IRANYekanXFaNum-Bold.woff2") format("woff2");
+  }
+  body {
+    font-family: "IRANYekan";
+  }
+  
+
+
 .dir-rtl{
     direction: rtl;
 }
@@ -10,3 +47,23 @@
 body{
     direction: rtl;
 }
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
