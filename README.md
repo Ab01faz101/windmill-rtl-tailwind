@@ -1,6 +1,8 @@
 # Windmill Dashboard
 
 A multi theme, completely accessible, with components and pages examples, ready for production dashboard.
+![Downloads](https://img.shields.io/packagist/dt/Ab01faz101/windmill-rtl-tailwind)
+![License](https://img.shields.io/github/license/Ab01faz101/windmill-rtl-tailwind)
 
 🧪 [See it live](https://windmillui.com/dashboard-html)
 
